@@ -59,11 +59,6 @@ app.post("/failure", function (req, res) {
   res.redirect("/");
 });
 
-//API Key
-//7a47158e5df68bfa6357cca07c4ca163-us5
-
-//List ID :60fe0e2e8f
-
 //When deployed insted of 3000 we use process.env.PORT
 app.listen(process.env.PORT || 3000, function () {
   console.log("Port 3000 is successfullly connected to the server !!!");
